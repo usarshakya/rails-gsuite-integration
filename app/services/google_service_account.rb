@@ -7,7 +7,7 @@ class GoogleServiceAccount
   end
 
   def authorized_client
-    @client = Google::APIClient.new(application_name: "receptionist")
+    @client = Google::APIClient.new
     authorizer = Signet::OAuth2::Client.new(client_secret)
     @client.authorization = authorizer
     @client.authorization.fetch_access_token!
