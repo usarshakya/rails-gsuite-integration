@@ -143,7 +143,7 @@ GEM
     pry-rails (0.3.6)
       pry (>= 0.10.4)
     public_suffix (3.0.2)
-    puma (3.11.4)
+    puma (3.12.3)
     rack (2.0.5)
     rack-test (1.0.0)
       rack (>= 1.0, < 3)
@@ -242,7 +242,7 @@ DEPENDENCIES
   mysql2 (~> 0.4.2)
   oauth2
   pry-rails
-  puma (~> 3.7)
+  puma (~> 3.12)
   rails (~> 5.1.6)
   sass-rails (~> 5.0)
   selenium-webdriver
